@@ -1,0 +1,12 @@
+# Get editor completitionsbased on config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank newline between shell prompts
+add_newline = true
+
+# enable the package module
+[package]
+disabled = false
+
+[conda]
+ignore_base = false
